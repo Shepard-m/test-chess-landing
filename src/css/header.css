@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  width: 100%;
+
+  padding-top: 26px;
+}
+
+.header__logo {
+  width: 247px;
+  height: 36px;
+}
+
+@media (max-width: 1365px) {
+  .header__logo {
+    width: 213px;
+    height: 32px;
+  }
+}
